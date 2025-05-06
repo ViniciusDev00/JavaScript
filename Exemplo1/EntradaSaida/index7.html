@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/exercicio7.js" defer></script>
+</head>
+<body>
+    <div>
+        <label for="produto">Escolha um produto: </label>
+        <select id="produto">
+            <option value="100">Spider-Man - R$100,00</option>
+            <option value="180">God of War - R$180,00</option>
+            <option value="220">Elden Ring - R$220,00</option>
+        </select>
+    </div>
+    <div>
+        <label for="desconto">Escolha um cupom de desconto: </label>
+        <select id="desconto">
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="25">25%</option>
+        </select>
+        <button onclick="calcularPreco()">Calcular</button>
+    </div>
+    <p id="resultado"></p>
+
+</body>
+</html>
